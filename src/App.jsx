@@ -1,7 +1,9 @@
-import React from 'react'
-import StateHooks from './Components/StateHooks'
-import State from './Components/State'
-import Effect from './Components/Effect'
+// import React from 'react'
+// import StateHooks from './Components/StateHooks'
+// import State from './Components/State'
+// import Effect from './Components/Effect'
+
+import CustomHooks from "./Components/Video/CustomHooks"
 
 const App = () => {
   return (
@@ -13,7 +15,9 @@ const App = () => {
 
       {/*<StateHooks />*/}
       {/*<State />*/}
-      <Effect />
+      {/* <Effect /> */}
+      <CustomHooks />
+
     </div>
   )
 }
